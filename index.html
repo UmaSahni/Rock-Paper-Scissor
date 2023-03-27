@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- block-1 -->
+   <div class="result-block">
+    <h1 id="result" class="result" >Choose any one Rock Paper or Scissor</h1>
+   </div>
+   
+   <!-- Block-2 -->
+   
+   <div class="result-option" >
+     <div id="computer-option">
+    
+        <h1>Computer</h1>
+     </div>
+     <h1>VS</h1>
+     <div id="your-option"></div>
+   
+     <h1>You</h1>
+   </div>
+
+   <!-- Block 3 -->
+
+   <div class="choose-options">
+     <div class="option" >
+        <img onclick="chooseRock()" src="./images/rock.png" alt="">
+        <h2>Rock</h2>
+     </div>
+     <div class="option" >
+        <img onclick="choosePaper()" src="./images/paper.png" alt="">
+        <h2>Paper</h2>
+     </div>
+     <div class="option" >
+        <img onclick="chooseScissor()" src="./images/scissors.png" alt="">
+        <h2>Scissors</h2>
+     </div>
+   </div>
+
+  <script src="./main.js" ></script>
+</body>
+</html>
